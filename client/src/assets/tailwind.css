@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  outline: none;
+}
+
+.vs--searchable .vs__dropdown-toggle {
+  height: 40px;
+  border-color: gray;
+  border-radius: 2px;
+}
+
+button {
+  padding: 8px 20px;
+  height: 40px;
+  color: white;
+  font-size: 13px;
+  transition: 0.4s;
+  letter-spacing: 1px;
+  background: #41B883;
+}
+button:hover {
+  background: #5adfa3;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #41B883;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5adfa3;
+}
